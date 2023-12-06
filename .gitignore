@@ -1,0 +1,13 @@
+# Ignore Python cache directories and files
+__pycache__/
+*.pyc
+
+# Ignore Django migrations directory
+**/migrations/
+
+# Ignore specific Python files in all directories
+**/__init__.py
+**/asgi.py
+**/wsgi.py
+**/serializers.py
+**/tests.py
